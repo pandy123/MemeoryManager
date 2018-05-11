@@ -1,14 +1,5 @@
-# MemoryManger
+var MemoryManager = require('../build/index.js').MemoryManger
 
-#install
-```js
-npm install memorymanager
-```
-
-#use
-
-```js
-var MemoryManager = require('memorymanager').MemoryManger
 var memeorypool = new MemoryManager()
 var Point = function(x, y) {
     this.x = x
@@ -23,4 +14,3 @@ var Line = function(point1, point2) {
 var point1 = memeorypool.allocateObject(Point)
 var point2 = memeorypool.allocateObject(Point)
 var line = memeorypool.allocateObject(Line)
-```

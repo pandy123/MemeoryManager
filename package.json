@@ -1,0 +1,22 @@
+{
+    "name": "memorymanager",
+    "version": "1.0.0",
+    "description": "this is a package for object managing by objectpool",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pandy123/MemoryManager.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pandy123/MemoryManager/issues"
+    },
+    "homepage": "https://github.com/pandy123/MemoryManager#readme"
+}
