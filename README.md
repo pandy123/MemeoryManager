@@ -2,13 +2,13 @@
 
 #install
 ```js
-npm install memorymanager
+npm install memoryutil
 ```
 
 #use
 
 ```js
-var MemoryManager = require('memorymanager').MemoryManger
+var MemoryManager = require('memoryutil').MemoryManger
 var memeorypool = new MemoryManager()
 var Point = function(x, y) {
     this.x = x
