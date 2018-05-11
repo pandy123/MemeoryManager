@@ -1,8 +1,8 @@
 {
-    "name": "memorymanager",
-    "version": "1.0.0",
+    "name": "memoryutil",
+    "version": "1.0.1",
     "description": "this is a package for object managing by objectpool",
-    "main": "index.js",
+    "main": "./build/index.js",
     "directories": {
         "test": "test"
     },
@@ -15,6 +15,7 @@
     },
     "author": "",
     "license": "ISC",
+    "types": "./types/index.d.ts",
     "bugs": {
         "url": "https://github.com/pandy123/MemoryManager/issues"
     },
